@@ -8,7 +8,7 @@
 
 El portfolio web es una plataforma personal, moderna y de alto rendimiento diseñada para presentar la trayectoria profesional, habilidades técnicas, proyectos y certificaciones de **Jose A. Lorenzo** como Desarrollador Web Full Stack (Junior). 
 
-El objetivo primordial es ofrecer una presencia online profesional y diferenciada, alejándose de plantillas genéricas mediante un diseño propio en tema oscuro con acentos en rojo fuego (`#ff2800`), navegación fluida, visualizador interactivo de certificados y canales de contacto directo (formulario de correo a `joseantoniolorenzotomas@gmail.com`, llamada telefónica, LinkedIn, GitHub y WhatsApp).
+El objetivo primordial es ofrecer una presencia online profesional y diferenciada, alejándose de plantillas genéricas mediante un diseño propio en tema oscuro con acentos en rojo fuego (`#ff2800`), navegación fluida, visualizador interactivo de certificados y canales de contacto directo (formulario de correo a `duckdev77@gmail.com`, llamada telefónica, LinkedIn, GitHub y WhatsApp).
 
 ---
 
@@ -28,7 +28,7 @@ El proyecto ha sido desarrollado bajo una filosofía de código limpio, nativo y
   * Visualizador modal unificado para certificados con soporte de cierre por clic y tecla `Escape`.
   * Integración asíncrona del formulario con **FormSubmit AJAX** y fallback automático a cliente de correo (`mailto:`).
   * Observador de intersección (`IntersectionObserver`) para animaciones y contadores al hacer scroll.
-* **FormSubmit (API / Endpoint)**: Servicio sin backend propio para la recepción de mensajes enviados a través del formulario de contacto directamente en la bandeja de entrada de `joseantoniolorenzotomas@gmail.com`.
+* **FormSubmit (API / Endpoint)**: Servicio sin backend propio para la recepción de mensajes enviados a través del formulario de contacto directamente en la bandeja de entrada de `duckdev77@gmail.com`.
 * **Herramientas de desarrollo**: Git, GitHub, Visual Studio Code.
 
 ---
@@ -47,9 +47,11 @@ portfolio-web/
 ├── js/
 │   └── script.js           # Lógica JavaScript nativa (interacciones, modales, envíos)
 ├── assets/
-│   ├── img/                # Logotipo (patoLogoDev) y 10 certificados oficiales
+│   ├── img/                # Logotipo, capturas de proyectos y 10 certificados oficiales
 │   │   ├── patoLogoDev.png
 │   │   ├── patoLogoDev.webp
+│   │   ├── devquest-preview.png
+│   │   ├── la-magia-de-carol-preview.jpg
 │   │   ├── certificado desarrollo con ia.png
 │   │   ├── certificadocursa.png
 │   │   └── CERTIFICATE_LANDING_PAGE~*.jpg (x8)
@@ -106,31 +108,40 @@ Al tratarse de una solución estática con JavaScript vanilla, no requiere pasos
   * **Demo en vivo**: [https://joseantoniolorenzotomas-coder.github.io/la-magia-de-carol/index.html](https://joseantoniolorenzotomas-coder.github.io/la-magia-de-carol/index.html)
   * **Repositorio GitHub**: [https://github.com/joseantoniolorenzotomas-coder/la-magia-de-carol](https://github.com/joseantoniolorenzotomas-coder/la-magia-de-carol)
 
-### 2. Task Manager App
+### 2. DevQuest
+* **Descripción**: Plataforma web gratuita para aprender programación mediante rutas guiadas, lecciones cortas y ejercicios interactivos.
+* **Tecnologías**: HTML5, CSS3, JavaScript y GitHub Pages.
+* **Funcionalidades**: Rutas disponibles para Python, HTML, CSS, JavaScript y SQL; ejercicios prácticos; progreso guardado automáticamente; sistema de experiencia, rachas, logros y liga; aprendizaje sin anuncios ni límite de tiempo.
+* **Captura**: `assets/img/devquest-preview.png`, usada como imagen principal en las tarjetas del proyecto.
+* **Enlaces**:
+  * **Demo en vivo**: [https://joseantoniolorenzotomas-coder.github.io/DevQuest/](https://joseantoniolorenzotomas-coder.github.io/DevQuest/)
+  * **Repositorio GitHub**: [https://github.com/joseantoniolorenzotomas-coder/DevQuest](https://github.com/joseantoniolorenzotomas-coder/DevQuest)
+
+### 3. Task Manager App
 * **Descripción**: Aplicación para la gestión organizada de tareas diarias, seguimiento de metas y sincronización en tiempo real.
 * **Tecnologías**: Node.js, MongoDB, JavaScript/React.
 * **Funcionalidades**: Autenticación de usuarios, creación/edición/eliminación de tareas (CRUD) y estados de progreso.
 * **Enlaces**: Demos y código enlazables en `projects/`.
 
-### 3. Portfolio Website
+### 4. Portfolio Website
 * **Descripción**: El presente sitio web profesional diseñado para destacar habilidades y proyectos de forma rápida y elegante.
 * **Tecnologías**: HTML5, CSS3, Vanilla JS.
 * **Funcionalidades**: Tema oscuro, animaciones por scroll, modal dinámico de certificados, navegación móvil y formulario con FormSubmit + mailto.
 * **Enlaces**: Demo local y repositorio en GitHub.
 
-### 4. Data Analytics Tool
+### 5. Data Analytics Tool
 * **Descripción**: Herramienta de visualización y análisis de datos estadísticos para pequeñas empresas y dashboards de métricas.
 * **Tecnologías**: Python, Pandas, Flask.
 * **Funcionalidades**: Carga de ficheros CSV, generación de gráficos interactivos y exportación de reportes.
 * **Enlaces**: Repositorio y demo enlazables.
 
-### 5. Chat Application
+### 6. Chat Application
 * **Descripción**: Aplicación de mensajería instantánea en tiempo real con salas temáticas y notificaciones en pantalla.
 * **Tecnologías**: WebSocket, Node.js, JavaScript.
 * **Funcionalidades**: Conexión bidireccional continua, almacenamiento de mensajes e interfaz conversacional fluida.
 * **Enlaces**: Demos y código enlazables.
 
-### 6. Weather App
+### 7. Weather App
 * **Descripción**: Aplicación meteorológica que consulta pronósticos globales mediante API REST externa y geolocalización.
 * **Tecnologías**: JavaScript, API REST, CSS3.
 * **Funcionalidades**: Detección de ubicación geográfica, predicción de 5 días y temas dinámicos según el clima.
@@ -222,6 +233,12 @@ Se han implementado buenas prácticas de accesibilidad web (a11y):
 
 ## Historial de cambios
 
+### [0.5.0] - 2026-10-05
+* **Incorporación de DevQuest**:
+  * Añadida una tarjeta del proyecto a la galería principal, categorizada como Python y enlazada a su demo y repositorio.
+  * Añadida su ficha ampliada, con descripción de rutas de aprendizaje, ejercicios, progreso local y gamificación.
+  * Actualizada la documentación con sus tecnologías, funcionalidades y enlaces.
+
 ### [0.4.0] - 2026-09-30
 * **Rediseño completo de la página de proyectos al detalle (`proyectosFull.html`)**:
   * Transformación de la cuadrícula estándar a un formato de **fichas técnicas de gran formato, centradas (`max-width: 950px`) y destacadas**.
@@ -242,8 +259,8 @@ Se han implementado buenas prácticas de accesibilidad web (a11y):
   * Actualización de fichas en `index.html`, `proyectosFull.html` y `documentacion.md`.
 
 ### [0.2.0] - 2026-09-30
-* **Reparación del formulario de contacto**:
-  * Integración completa con el endpoint de FormSubmit para entregar correos electrónicos directamente en `joseantoniolorenzotomas@gmail.com`.
+* **Reparación del formulario de contacto, hay que solucionar el error dado que e camviado el correo eletronico a duckdev77@gmail.com y no esta responiendo correctamente**:
+  * Integración completa con el endpoint de FormSubmit para entregar correos electrónicos directamente en `duckdev77@gmail.com`.
   * Creación de fallback automático a cliente de correo (`mailto:`) en caso de error de red o bloqueo de scripts.
   * Corrección del botón de envío (eliminación de atributo `href` no válido y duplicación de clases).
   * Estados visuales de carga en el botón ("Enviando...") y notificaciones de éxito o error al usuario.

@@ -106,7 +106,7 @@ if (certificateImages.length > 0 && certificateModal && modalImage) {
 }
 
 // ==================== FORMULARIO DE CONTACTO ====================
-const RECIPIENT_EMAIL = 'joseantoniolorenzotomas@gmail.com';
+const RECIPIENT_EMAIL = 'duckdev77@gmail.com';
 
 if (contactForms.length > 0) {
     contactForms.forEach(form => {
