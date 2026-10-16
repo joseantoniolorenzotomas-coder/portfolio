@@ -82,7 +82,7 @@ Al tratarse de una solución estática con JavaScript vanilla, no requiere pasos
 
 1. **Navegación (`.navbar`)**: Barra superior fija con el logotipo de la marca (`JA LT`), enlaces de salto suave (`#inicio`, `#sobre-mi`, `#tecnologias`, `#proyectos`, `#formacion`, `#contacto`) y acceso a `proyectosFull.html`. En pantallas pequeñas se convierte en menú desplegable tipo hamburguesa.
 2. **Inicio / Hero (`#inicio`)**: Presentación personal con título de impacto, subtítulo profesional de desarrollador Full Stack Junior, botones de llamada a la acción (CTA) y bloque decorativo de código con el isotipo de la marca.
-3. **Sobre mí (`#sobre-mi`)**: Biografía personal, valores profesionales, intereses (ciencia, anime, artes marciales), accesos directos y estadísticas destacadas (proyectos y clientes).
+3. **Sobre mí (`#sobre-mi`)**: Biografía personal, foto profesional (`assets/img/fotocurriculum.jpeg`), valores profesionales, intereses (ciencia, anime, artes marciales), accesos directos y estadísticas destacadas (proyectos y clientes).
 4. **Tecnologías (`#tecnologias`)**: Cuadrícula de competencias clasificadas en tres bloques: *Frontend* (HTML5, CSS3, JavaScript), *Backend* (Python, Flask, FastAPI) y *Herramientas* (Git/GitHub, VS Code, Responsive Design) con barras de nivel.
 5. **Proyectos (`#proyectos`)**: Galería de trabajos con botones de filtrado interactivo (*Todos*, *Frontend*, *Full Stack*, *Python*), tarjetas con etiquetas tecnológicas y enlaces a demostraciones y repositorios.
 6. **Formación y Certificados (`#formacion`)**: Línea de tiempo cronológica formativa (Coursera IBM, Coding Academy, DataCamp) y cuadrícula interactiva con los 10 certificados emitidos. Al pulsar sobre cualquier certificado se abre un modal ampliado para su lectura nítida.
@@ -241,6 +241,11 @@ Se han implementado buenas prácticas de accesibilidad web (a11y):
 ---
 
 ## Historial de cambios
+
+### [0.6.1] - 2026-10-16
+* **Foto profesional en Sobre mí**:
+  * Añadida `assets/img/fotocurriculum.jpeg` al inicio del texto en `#sobre-mi` con marco de acento y bordes redondeados (`.about-photo` en `styles.css`).
+  * Centrada automáticamente en móvil/tablet.
 
 ### [0.6.0] - 2026-10-16
 * **Incorporación de Freeduck-Translator**:
