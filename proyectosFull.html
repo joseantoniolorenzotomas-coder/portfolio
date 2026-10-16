@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio profesional de Jose A. Lorenzo - Desarrollador Web">
+    <meta name="author" content="Jose A. Lorenzo">
+    <title>Jose A. Lorenzo | Desarrollador Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="assets/img/patoLogoDev.png">
+</head>
+<body>
+        <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <img src="assets/img/patoLogoDev.png" alt="Logo" class="nav-logo">
+                JA<span class="accent">LT</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="index.html#sobre-mi" class="nav-link">Sobre mí</a></li>
+                <li><a href="index.html#tecnologias" class="nav-link">Tecnologías</a></li>
+                <li><a href="#proyectos" class="nav-link active">Proyectos</a></li>
+                <li><a href="index.html#formacion" class="nav-link">Formación</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+        <!-- Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos Completos<br>al detalle
+            </h2>
+            <div class="projects-filters">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+            </div>
+            <div class="projects-detail-grid">
+                <!-- ==================== PROYECTO 1: LA MAGIA DE CAROL ==================== -->
+                <article class="project-card project-detail-card" data-category="frontend">
+                    <div class="project-image">
+                        <span class="project-badge">En vivo 🚀</span>
+                        <img src="assets/img/la-magia-de-carol-preview.jpg" alt="Mesas dulces para eventos - La Magia de Carol">
+                        <div class="project-overlay">
+                            <a href="https://joseantoniolorenzotomas-coder.github.io/la-magia-de-carol/index.html" class="project-link" target="_blank" rel="noopener noreferrer">Ver Demo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder/la-magia-de-carol" class="project-link" target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </div>
+                    <div class="project-detail-content">
+                        <div class="project-detail-header-info">
+                            <h3>La Magia de Carol</h3>
+                            <p class="project-detail-subtitle">Plataforma Web Comercial & Catálogo Interactivo para Organización de Eventos y Mesas Dulces</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5 Semántico</span>
+                                <span class="tag">CSS3 Temático</span>
+                                <span class="tag">JavaScript Vanilla</span>
+                                <span class="tag">Mobile First</span>
+                                <span class="tag">CSP Security</span>
+                                <span class="tag">GitHub Pages</span>
+                            </div>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🎯 Visión General & Propósito del Proyecto</h4>
+                            <p>
+                                <strong>La Magia de Carol</strong> es un proyecto comercial real en producción desarrollado para una empresa especializada en repostería creativa, decoración y ambientación temática para eventos sociales (bodas, primeras comuniones, cumpleaños infantiles y aniversarios). El desafío consistía en crear una presencia digital artesanal y profesional que cautivara a clientes exigentes y redujera a cero la fricción en la solicitud de presupuestos, permitiendo a los usuarios visualizar ejemplos reales de montajes antes de contratar.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>✨ Características & Funcionalidades Destacadas</h4>
+                            <ul>
+                                <li><strong>Catálogo Visual Temático:</strong> Clasificación clara de propuestas decorativas con tarjetas interactivas y galería fotográfica de trabajos reales en alta resolución.</li>
+                                <li><strong>Canal de Reserva Directa por WhatsApp:</strong> Integración de botón flotante con codificación URI que genera un mensaje preconfigurado indicando el tipo de evento y solicitud de información sin pasos intermedios.</li>
+                                <li><strong>Arquitectura Mobile-First:</strong> Con más del 85% del tráfico procedente de smartphones, toda la interfaz está adaptada para interacción táctil fluida, botones de acción ergonómicos y lectura cómoda a una sola mano.</li>
+                                <li><strong>Seguridad y Rendimiento:</strong> Implementación estricta de Content Security Policy (CSP) en cabeceras meta para evitar vulnerabilidades de inyección y carga en menos de 1 segundo.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🛠️ Stack Tecnológico & Decisiones de Arquitectura</h4>
+                            <ul>
+                                <li><strong>Frontend Puro (Sin Dependencias):</strong> Desarrollado íntegramente con HTML5 semántico, CSS3 modular y JavaScript ES6 nativo, garantizando máxima velocidad sin librerías pesadas.</li>
+                                <li><strong>Metaetiquetas Open Graph & SEO:</strong> Configuración exhaustiva de etiquetas OG (título, descripción, imagen representativa) para que al compartir el enlace por WhatsApp o redes sociales genere una previsualización atractiva.</li>
+                                <li><strong>Despliegue Continuo (CI/CD):</strong> Alojamiento con certificado SSL automático a través de GitHub Pages vinculado al repositorio maestro.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>📈 Resultados & Estado Actual</h4>
+                            <p>
+                                El sitio se encuentra actualmente en producción y operativo para el público general, logrando una tasa de conversión directa hacia WhatsApp notablemente superior a la anterior presencia en redes sociales no estructurada.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-actions">
+                            <a href="https://joseantoniolorenzotomas-coder.github.io/la-magia-de-carol/index.html" class="btn btn-primary" target="_blank" rel="noopener noreferrer">🌐 Ver Demo en Vivo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder/la-magia-de-carol" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">💻 Ver Repositorio GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ==================== PROYECTO 2: DEVQUEST ==================== -->
+                <article class="project-card project-detail-card" data-category="python">
+                    <div class="project-image">
+                        <span class="project-badge" style="background: #2563eb;">Aprende programación 🐍</span>
+                        <img src="assets/img/devquest-preview.png" alt="Captura de la pantalla de bienvenida de DevQuest">
+                        <div class="project-overlay">
+                            <a href="https://joseantoniolorenzotomas-coder.github.io/DevQuest/" class="project-link" target="_blank" rel="noopener noreferrer">Ver Demo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder/DevQuest" class="project-link" target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </div>
+                    <div class="project-detail-content">
+                        <div class="project-detail-header-info">
+                            <h3>DevQuest</h3>
+                            <p class="project-detail-subtitle">Plataforma gratuita de aprendizaje de programación con rutas guiadas y ejercicios interactivos</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">GitHub Pages</span>
+                            </div>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🎯 Visión General & Propósito del Proyecto</h4>
+                            <p>
+                                <strong>DevQuest</strong> es una plataforma web educativa que propone aprender programación mediante rutas progresivas, lecciones cortas y ejercicios interactivos. Incluye recorridos disponibles para Python, HTML, CSS, JavaScript y SQL, desde los conceptos iniciales hasta la práctica aplicada.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>✨ Características & Funcionalidades Destacadas</h4>
+                            <ul>
+                                <li><strong>Aprendizaje práctico:</strong> Rutas organizadas en lecciones y ejercicios para practicar conceptos de programación paso a paso.</li>
+                                <li><strong>Varios lenguajes:</strong> Contenido disponible para Python, HTML, CSS, JavaScript y SQL, con otros lenguajes indicados como próximos.</li>
+                                <li><strong>Progreso persistente:</strong> Guarda automáticamente el avance en el navegador, sin necesidad de registro obligatorio.</li>
+                                <li><strong>Gamificación:</strong> Sistema de experiencia, rachas, logros y liga para motivar la continuidad del aprendizaje.</li>
+                                <li><strong>Acceso gratuito y sin límite de tiempo:</strong> La plataforma no incluye anuncios y permite practicar al ritmo de cada persona.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🛠️ Stack Tecnológico & Despliegue</h4>
+                            <ul>
+                                <li><strong>Interfaz web:</strong> HTML5, CSS3 y JavaScript para presentar las rutas y gestionar las interacciones de aprendizaje.</li>
+                                <li><strong>Persistencia en cliente:</strong> El progreso se conserva en el navegador del usuario.</li>
+                                <li><strong>Publicación:</strong> Demo desplegada y accesible públicamente mediante GitHub Pages.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-actions">
+                            <a href="https://joseantoniolorenzotomas-coder.github.io/DevQuest/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">🌐 Explorar DevQuest</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder/DevQuest" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">💻 Ver Repositorio GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ==================== PROYECTO 3: FREEDUCK-TRANSLATOR ==================== -->
+                <article class="project-card project-detail-card" data-category="frontend">
+                    <div class="project-image">
+                        <span class="project-badge">En vivo 🚀</span>
+                        <div class="project-placeholder">
+                            <span style="font-size: 1.4rem; font-weight: 700; color: #fff;">🦆 Freeduck-Translator</span>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #d4d4d4;">Traductor con modo offline y 42 idiomas online</p>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://joseantoniolorenzotomas-coder.github.io/Freeduck-Translator/" class="project-link" target="_blank" rel="noopener noreferrer">Ver Demo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder/Freeduck-Translator" class="project-link" target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </div>
+                    <div class="project-detail-content">
+                        <div class="project-detail-header-info">
+                            <h3>Freeduck-Translator</h3>
+                            <p class="project-detail-subtitle">Traductor gratuito PWA con modo offline real ES↔EN y 42 idiomas online</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript Vanilla</span>
+                                <span class="tag">PWA</span>
+                                <span class="tag">Service Worker</span>
+                                <span class="tag">Web Speech API</span>
+                            </div>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🎯 Visión General & Propósito del Proyecto</h4>
+                            <p>
+                                <strong>Freeduck-Translator</strong> es un traductor web gratuito y sin registro que combina 42 idiomas online (motor MyMemory) con un modo offline real español-inglés para texto, voz natural y dictado. Está pensado para viajar, estudiar o conversar con otra persona sin depender de conexión, y se instala como app (PWA) en móvil y escritorio.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>✨ Características & Funcionalidades Destacadas</h4>
+                            <ul>
+                                <li><strong>42 idiomas online:</strong> Traducción con detección automática de idioma, incluidos Català, Galego, Euskara y Valencià.</li>
+                                <li><strong>Offline real ES↔EN:</strong> Traducción de texto, voz natural y dictado sin internet tras una descarga única (~140 MB).</li>
+                                <li><strong>Conversación a dos voces:</strong> Cada persona habla en su idioma, la app traduce y reproduce en voz alta automáticamente, con historial de conversación.</li>
+                                <li><strong>PWA instalable:</strong> Se instala con su icono desde Chrome/Edge y funciona como app propia, con atajos de teclado e historial local.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🛠️ Stack Tecnológico & Decisiones de Arquitectura</h4>
+                            <ul>
+                                <li><strong>Frontend puro sin dependencias pesadas:</strong> HTML5, CSS3 y JavaScript vanilla para máxima velocidad y facilidad de mantenimiento.</li>
+                                <li><strong>Offline-first:</strong> Service Worker con caché, motores locales de traducción, voz y dictado que funcionan en modo avión.</li>
+                                <li><strong>APIs web nativas:</strong> Web Speech API para voz y dictado, MyMemory como motor online gratuito sin API key.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>📈 Resultados & Estado Actual</h4>
+                            <p>
+                                Proyecto en producción y accesible públicamente en GitHub Pages, con suite de pruebas propia y documentación técnica. Funciona online y offline según el modo elegido.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-actions">
+                            <a href="https://joseantoniolorenzotomas-coder.github.io/Freeduck-Translator/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">🌐 Ver Demo en Vivo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder/Freeduck-Translator" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">💻 Ver Repositorio GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ==================== PROYECTO 3: TASK MANAGER APP ==================== -->
+                <article class="project-card project-detail-card" data-category="fullstack">
+                    <div class="project-image">
+                        <span class="project-badge" style="background: #3b82f6;">Full Stack ⚡</span>
+                        <div class="project-placeholder">
+                            <span style="font-size: 1.4rem; font-weight: 700; color: #fff;">Task Manager App</span>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #d4d4d4;">Gestión de Tareas y Productividad en Tiempo Real</p>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">Ver Demo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="project-link" target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </div>
+                    <div class="project-detail-content">
+                        <div class="project-detail-header-info">
+                            <h3>Task Manager App</h3>
+                            <p class="project-detail-subtitle">Sistema Integral de Productividad, Gestión de Proyectos y Sincronización en Tiempo Real</p>
+                            <div class="project-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Express</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">JWT Auth</span>
+                                <span class="tag">REST API</span>
+                                <span class="tag">CSS Grid</span>
+                            </div>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🎯 Visión General & Propósito del Proyecto</h4>
+                            <p>
+                                Aplicación web completa diseñada para resolver la desorganización de equipos de trabajo y desarrolladores individuales. Permite planificar sprints, categorizar tareas según urgencia e impacto y monitorear el estado de entrega en tableros dinámicos.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>✨ Características & Funcionalidades Destacadas</h4>
+                            <ul>
+                                <li><strong>Autenticación y Seguridad JWT:</strong> Registro e inicio de sesión seguro con cifrado de contraseñas mediante <em>bcrypt</em> y validación de tokens de sesión para proteger endpoints privados.</li>
+                                <li><strong>Gestión Completa de Tareas (CRUD):</strong> Creación, edición, filtrado, asignación de responsables, fechas de caducidad y cambio de estados (<em>Pendiente</em>, <em>En Progreso</em>, <em>Completada</em>).</li>
+                                <li><strong>Búsqueda & Filtros Multicriterio:</strong> Filtros combinados por prioridad (Alta, Media, Baja), fechas límite y búsqueda por texto completo en tiempo real.</li>
+                                <li><strong>Persistencia Robusta de Datos:</strong> Modelado estructurado de colecciones en base de datos NoSQL con validaciones de esquema para integridad de datos.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🛠️ Stack Tecnológico & Decisiones de Arquitectura</h4>
+                            <ul>
+                                <li><strong>Backend:</strong> Node.js con Express estructurado bajo arquitectura Modelo-Controlador-Ruta (MCR) para máxima escalabilidad y facilidad de testeo.</li>
+                                <li><strong>Base de Datos:</strong> MongoDB Atlas con ORM Mongoose para manipulación de esquemas y relaciones documentales.</li>
+                                <li><strong>Frontend:</strong> Interfaz reactiva con manipulación dinámica del DOM, consumo de APIs mediante <code>async/await</code> y almacenamiento en LocalStorage para persistencia de credenciales seguras.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-actions">
+                            <a href="#" class="btn btn-primary" target="_blank">🌐 Explorar Demostración</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">💻 Ver Código en GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ==================== PROYECTO 4: PORTFOLIO WEBSITE ==================== -->
+                <article class="project-card project-detail-card" data-category="frontend">
+                    <div class="project-image">
+                        <span class="project-badge">En vivo 🚀</span>
+                        <div class="project-placeholder">
+                            <span style="font-size: 1.4rem; font-weight: 700; color: #fff;">Portfolio Profesional Web</span>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #d4d4d4;">Diseño Nativo, Tema Oscuro y Alto Rendimiento</p>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="index.html" class="project-link">Ver Demo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="project-link" target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </div>
+                    <div class="project-detail-content">
+                        <div class="project-detail-header-info">
+                            <h3>Portfolio Website</h3>
+                            <p class="project-detail-subtitle">Plataforma de Marca Personal, Presentación de Trayectoria y Sistema de Contacto Automatizado</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3 Variables</span>
+                                <span class="tag">JavaScript Vanilla</span>
+                                <span class="tag">FormSubmit AJAX</span>
+                                <span class="tag">Modal Dinámico</span>
+                                <span class="tag">Accesibilidad</span>
+                            </div>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🎯 Visión General & Propósito del Proyecto</h4>
+                            <p>
+                                Diseñado para escapar de plantillas prefabricadas y demostrar solvencia técnica pura en el desarrollo frontend. Integra una identidad visual atractiva en modo oscuro, navegación suave, galería de certificados interactiva y un canal directo de contacto por correo electrónico.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>✨ Características & Funcionalidades Destacadas</h4>
+                            <ul>
+                                <li><strong>Formulario de Contacto Funcional:</strong> Envío asíncrono de correos a <code>joseantoniolorenzotomas@gmail.com</code> mediante la API de FormSubmit, con retroalimentación visual en tiempo real y fallback automático a cliente de correo nativo (<code>mailto:</code>).</li>
+                                <li><strong>Visualizador Modal Universal de Certificados:</strong> Sistema accesible de apertura y visualización a alta resolución para 10 certificaciones oficiales (IBM, Coursera, DataCamp), con soporte de tecla Escape y bloqueo de scroll de fondo.</li>
+                                <li><strong>Filtrado Reactivo sin Frameworks:</strong> Motor de filtrado instantáneo por categorías tecnológicas con animaciones de escala progresiva.</li>
+                                <li><strong>Widgets Flotantes de Retorno y WhatsApp:</strong> Acceso rápido de comunicación y retorno superior desde cualquier posición de la página.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🛠️ Stack Tecnológico & Decisiones de Arquitectura</h4>
+                            <ul>
+                                <li><strong>CSS Modular con Variables Nativas:</strong> Sistema centralizado en <code>:root</code> con paleta en tonos oscuros (<code>#0a0a0a</code>) y acento en rojo fuego (<code>#ff2800</code>).</li>
+                                <li><strong>JavaScript ES6+:</strong> Modular, robusto con comprobaciones nulas defensivas y observadores de intersección (<code>IntersectionObserver</code>).</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-actions">
+                            <a href="index.html" class="btn btn-primary">🌐 Ir a Inicio del Portfolio</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">💻 Ver Repositorio en GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ==================== PROYECTO 5: DATA ANALYTICS TOOL ==================== -->
+                <article class="project-card project-detail-card" data-category="python">
+                    <div class="project-image">
+                        <span class="project-badge" style="background: #eab308; color: #000;">Python Analytics 🐍</span>
+                        <div class="project-placeholder">
+                            <span style="font-size: 1.4rem; font-weight: 700; color: #fff;">Data Analytics Tool</span>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #d4d4d4;">Minería de Datos, Limpieza Estadística y Dashboards</p>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">Ver Demo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="project-link" target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </div>
+                    <div class="project-detail-content">
+                        <div class="project-detail-header-info">
+                            <h3>Data Analytics Tool</h3>
+                            <p class="project-detail-subtitle">Suite de Procesamiento de Datos, Minería Estadística y Cuadros de Mando Interactivos</p>
+                            <div class="project-tags">
+                                <span class="tag">Python 3</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">NumPy</span>
+                                <span class="tag">Data Visualization</span>
+                                <span class="tag">REST API</span>
+                            </div>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🎯 Visión General & Propósito del Proyecto</h4>
+                            <p>
+                                Solución analítica concebida para automatizar el análisis cuantitativo de conjuntos de datos comerciales. Permite transformar datos en bruto (archivos de transacciones, hojas de cálculo de clientes y métricas de tráfico) en paneles visuales comprensibles para la toma de decisiones empresariales.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>✨ Características & Funcionalidades Destacadas</h4>
+                            <ul>
+                                <li><strong>Ingesta y Normalización de Archivos:</strong> Carga automatizada de archivos CSV, Excel y JSON con algoritmos de detección de tipos de datos y corrección de valores nulos o atípicos.</li>
+                                <li><strong>Cálculo Estadístico Avanzado:</strong> Análisis descriptivo rápido (medias, desviaciones estándar, medianas, percentiles y correlaciones de variables).</li>
+                                <li><strong>Visualización Dinámica:</strong> Representación gráfica de tendencias temporales, gráficos de barras y mapas de calor interactivos.</li>
+                                <li><strong>Exportación Consolidada:</strong> Generación de resúmenes ejecutivos listos para informes en formato estructurado.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🛠️ Stack Tecnológico & Decisiones de Arquitectura</h4>
+                            <ul>
+                                <li><strong>Procesamiento Numérico:</strong> Biblioteca Pandas y NumPy optimizadas en Python para cálculos masivos en memoria.</li>
+                                <li><strong>Capa Web:</strong> Microframework Flask sirviendo una API REST ligera que comunica el backend analítico con la interfaz web.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-actions">
+                            <a href="#" class="btn btn-primary" target="_blank">🌐 Ver Demostración</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">💻 Ver Código en GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ==================== PROYECTO 6: CHAT APPLICATION ==================== -->
+                <article class="project-card project-detail-card" data-category="fullstack">
+                    <div class="project-image">
+                        <span class="project-badge" style="background: #8b5cf6;">Sockets en Vivo 💬</span>
+                        <div class="project-placeholder">
+                            <span style="font-size: 1.4rem; font-weight: 700; color: #fff;">Chat Application</span>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #d4d4d4;">Mensajería en Tiempo Real Bidireccional y Salas Temáticas</p>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">Ver Demo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="project-link" target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </div>
+                    <div class="project-detail-content">
+                        <div class="project-detail-header-info">
+                            <h3>Chat Application</h3>
+                            <p class="project-detail-subtitle">Plataforma de Comunicación Instantánea Bidireccional con Salas Temáticas y Concurrencia</p>
+                            <div class="project-tags">
+                                <span class="tag">WebSockets</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">JavaScript ES6</span>
+                                <span class="tag">Event-Driven</span>
+                                <span class="tag">CSS3</span>
+                            </div>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🎯 Visión General & Propósito del Proyecto</h4>
+                            <p>
+                                Plataforma construida para dominar el paradigma de comunicación basada en eventos y arquitecturas de red concurrentes. Proporciona una sala de conversación fluida donde los mensajes se transmiten y reflejan instantáneamente entre todos los usuarios conectados sin necesidad de recargar la página web.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>✨ Características & Funcionalidades Destacadas</h4>
+                            <ul>
+                                <li><strong>Comunicación en Tiempo Real:</strong> Conexión dúplex persistente con latencia mínima para envío y recepción simultánea de mensajes.</li>
+                                <li><strong>Salas Temáticas de Conversación:</strong> Posibilidad de segmentar canales según equipos o temas de interés.</li>
+                                <li><strong>Indicadores de Actividad:</strong> Notificaciones visuales de usuarios conectados, desconexiones y estados de actividad.</li>
+                                <li><strong>Diseño de Interfaz Moderno:</strong> Estética similar a clientes de mensajería modernos con desplazamiento automático hacia el último mensaje recibido.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🛠️ Stack Tecnológico & Decisiones de Arquitectura</h4>
+                            <ul>
+                                <li><strong>Protocolo:</strong> WebSockets nativo / Socket.io gestionando eventos de conexión, desconexión y difusión (broadcast).</li>
+                                <li><strong>Servidor Asíncrono:</strong> Node.js con bucle de eventos no bloqueante capaz de sostener múltiples conexiones simultáneas con bajo consumo de memoria.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-actions">
+                            <a href="#" class="btn btn-primary" target="_blank">🌐 Probar la Aplicación</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">💻 Ver Código en GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ==================== PROYECTO 7: WEATHER APP ==================== -->
+                <article class="project-card project-detail-card" data-category="frontend">
+                    <div class="project-image">
+                        <span class="project-badge" style="background: #06b6d4;">API Clima ☀️</span>
+                        <div class="project-placeholder">
+                            <span style="font-size: 1.4rem; font-weight: 700; color: #fff;">Weather App</span>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #d4d4d4;">Pronóstico Climático Global con Geolocalización</p>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">Ver Demo</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="project-link" target="_blank" rel="noopener noreferrer">Código</a>
+                        </div>
+                    </div>
+                    <div class="project-detail-content">
+                        <div class="project-detail-header-info">
+                            <h3>Weather App</h3>
+                            <p class="project-detail-subtitle">Aplicación Meteorológica de Precisión con Geolocalización y Adaptación Atmosférica</p>
+                            <div class="project-tags">
+                                <span class="tag">API REST</span>
+                                <span class="tag">JavaScript Vanilla</span>
+                                <span class="tag">Geolocation API</span>
+                                <span class="tag">CSS3 Animations</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🎯 Visión General & Propósito del Proyecto</h4>
+                            <p>
+                                Aplicación de pronóstico del tiempo diseñada para ofrecer consultas rápidas y visuales. Integra geolocalización automática en el navegador para detectar el clima local de inmediato, así como un buscador mundial de ciudades.
+                            </p>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>✨ Características & Funcionalidades Destacadas</h4>
+                            <ul>
+                                <li><strong>Detección de Ubicación Automática:</strong> Consulta de coordenadas GPS mediante la API de Geolocalización de HTML5 para mostrar el clima al instante.</li>
+                                <li><strong>Métricas Meteorológicas Completas:</strong> Sensación térmica, humedad relativa, presión barométrica, índice UV y velocidad del viento.</li>
+                                <li><strong>Previsión Extendida:</strong> Visualización de pronóstico a 5 días con temperaturas máximas y mínimas proyectadas.</li>
+                                <li><strong>Diseño Atmosférico Dinámico:</strong> Fondos e iconos adaptativos que varían según las condiciones actuales (soleado, lluvia, tormenta, niebla, nieve o noche).</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-section">
+                            <h4>🛠️ Stack Tecnológico & Decisiones de Arquitectura</h4>
+                            <ul>
+                                <li><strong>Consumo de API REST:</strong> Integración mediante <code>fetch</code> asíncrono con control de errores por red o nombres de ciudades incorrectos.</li>
+                                <li><strong>Optimización de Caché:</strong> Almacenamiento en SessionStorage para evitar consultas duplicadas en periodos cortos y optimizar las cuotas de llamadas a la API.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-detail-actions">
+                            <a href="#" class="btn btn-primary" target="_blank">🌐 Probar Pronóstico</a>
+                            <a href="https://github.com/joseantoniolorenzotomas-coder" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">💻 Ver Código en GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Ponerse en Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Tienes un proyecto en mente?</h3>
+                    <p>Me encantaría hablar contigo sobre tu próximo proyecto. Envíame un mensaje o contáctame a través de mis redes sociales.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:duckdev77@gmail.com" class="contact-method">
+                            <span class="method-icon">✉️</span>
+                            <div>
+                                <p class="method-label">Email</p>
+                                <p class="method-value">duckdev77@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:+34644011966" class="contact-method">
+                            <span class="method-icon">📱</span>
+                            <div>
+                                <p class="method-label">Teléfono</p>
+                                <p class="method-value">+34 644 011 966</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jos%C3%A9-antonio-lorenzo-tom%C3%A1s-113466348/" target="_blank" rel="noopener noreferrer" class="contact-method">
+                            <span class="method-icon">💼</span>
+                            <div>
+                                <p class="method-label">LinkedIn</p>
+                                <p class="method-value">José Antonio Lorenzo Tomás</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/joseantoniolorenzotomas-coder" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jos%C3%A9-antonio-lorenzo-tom%C3%A1s-113466348/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" action="https://formsubmit.co/duckdev77.com" method="POST">
+                    <!-- Configuración para entrega de correos a duckdev77@gmail.com -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Nuevo mensaje desde Portfolio Web (Proyectos al detalle)">
+                    <input type="hidden" name="_template" value="table">
+
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Asunto del mensaje">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submitBtn">Enviar Mensaje</button>
+                    
+                    <div class="form-feedback" id="formFeedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <img src="assets/img/patoLogoDev.png" alt="Duck Logo" class="footer-logo">
+            <p>&copy; 2026 Jose A. Lorenzo. Todos los derechos reservados.</p>
+            <p>Hecho con amor usando HTML, CSS y JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Logo flotante -->
+    <a href="#proyectos" class="floating-logo" aria-label="Volver arriba">
+        <img src="assets/img/patoLogoDev.png" alt="Duck Logo">
+    </a>
+
+    <script src="js/script.js"></script>
+<!-- WhatsApp button -->
+<script>
+(function () {
+  var wrap = document.createElement('div');
+
+  wrap.style.cssText =
+    'position:fixed;' +
+    'right:24px;' +
+    'bottom:24px;' +
+    'z-index:9999;' +
+    'display:flex;' +
+    'flex-direction:column;' +
+    'align-items:flex-end;' +
+    'gap:7px;' +
+    'font-family:system-ui,sans-serif;';
+
+  var a = document.createElement('a');
+
+  var mensaje =
+    'Duck te elijo a ti!\n' +
+    String.fromCodePoint(0x1FAF8) +
+    String.fromCodePoint(0x27B0) +
+    String.fromCodePoint(0x3030) +
+    String.fromCodePoint(0xFE0F) +
+    '\\\n' +
+    '                 \\' +
+    String.fromCodePoint(0x27BF) +
+    String.fromCodePoint(0x27B0) +
+    String.fromCodePoint(0x1F534) +
+    String.fromCodePoint(0x1F4A5) +
+    String.fromCodePoint(0x1F4A8) +
+    String.fromCodePoint(0x1F425);
+
+  a.href =
+    'https://wa.me/34644011966?text=' +
+    encodeURIComponent(mensaje);
+
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+  a.setAttribute('aria-label', 'Contactar por WhatsApp');
+  a.style.cssText =
+    'display:flex;align-items:center;gap:10px;text-decoration:none';
+
+  var pill = document.createElement('span');
+  pill.textContent = '¡Contactame!';
+  pill.style.cssText =
+    'background:#fff;color:#14181c;padding:10px 14px;border-radius:999px;' +
+    'box-shadow:0 2px 12px rgba(0,0,0,.18);font-size:14px;' +
+    'font-weight:600;white-space:nowrap';
+
+  a.appendChild(pill);
+
+  var b = document.createElement('span');
+  b.style.cssText =
+    'width:60px;height:60px;border-radius:50%;background:#ff0004;' +
+    'box-shadow:0 4px 16px rgba(0,0,0,.24);display:flex;' +
+    'align-items:center;justify-content:center;flex-shrink:0';
+
+  b.innerHTML =
+    '<svg width="32" height="32" viewBox="0 0 24 24" fill="#fff" aria-hidden="true">' +
+    '<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>' +
+    '</svg>';
+
+  a.appendChild(b);
+  wrap.appendChild(a);
+
+  document.body.appendChild(wrap);
+})();
+
+</script>
+</body>
+</html>
