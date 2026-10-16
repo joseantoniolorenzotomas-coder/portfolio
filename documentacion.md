@@ -121,6 +121,7 @@ Al tratarse de una solución estática con JavaScript vanilla, no requiere pasos
 * **Descripción**: Traductor web gratuito, sin registro y con modo offline real español-inglés (texto, voz natural y dictado) más 42 idiomas online. PWA instalable en móvil y escritorio con conversación a dos voces.
 * **Tecnologías**: HTML5, CSS3, JavaScript vanilla, PWA (Manifest + Service Worker), Web Speech API, motor online MyMemory, GitHub Pages.
 * **Funcionalidades**: 42 idiomas online con detección automática (incluidos Català, Galego, Euskara y Valencià); offline ES↔EN tras descarga única; conversación bilingüe con reproducción en voz alta; historial local, atajos de teclado y diseño responsive.
+* **Captura**: `assets/img/freeduck-translator-preview.png`, usada como imagen principal en las tarjetas del proyecto.
 * **Enlaces**:
   * **Demo en vivo**: [https://joseantoniolorenzotomas-coder.github.io/Freeduck-Translator/](https://joseantoniolorenzotomas-coder.github.io/Freeduck-Translator/)
   * **Repositorio GitHub**: [https://github.com/joseantoniolorenzotomas-coder/Freeduck-Translator](https://github.com/joseantoniolorenzotomas-coder/Freeduck-Translator)
