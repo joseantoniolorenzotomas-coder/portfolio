@@ -47,15 +47,19 @@ portfolio-web/
 ├── js/
 │   └── script.js           # Lógica JavaScript nativa (interacciones, modales, envíos)
 ├── assets/
-│   ├── img/                # Logotipo, capturas de proyectos y 10 certificados oficiales
+│   ├── img/                # Logotipo, foto profesional, capturas de proyectos y 10 certificados oficiales
 │   │   ├── patoLogoDev.png
 │   │   ├── patoLogoDev.webp
+│   │   ├── fotocurriculum.jpeg
 │   │   ├── devquest-preview.png
 │   │   ├── la-magia-de-carol-preview.jpg
+│   │   ├── freeduck-translator-preview.png
+│   │   ├── logo-la-magia-de-carol.png
 │   │   ├── certificado desarrollo con ia.png
 │   │   ├── certificadocursa.png
 │   │   └── CERTIFICATE_LANDING_PAGE~*.jpg (x8)
 │   └── icons/              # Directorio reservado para iconos SVG y recursos gráficos
+├── curriculum/             # CV y certificados complementarios en PDF/imagen
 └── projects/               # Directorio para subproyectos, demos o código fuente adicional
 ```
 
@@ -241,6 +245,10 @@ Se han implementado buenas prácticas de accesibilidad web (a11y):
 ---
 
 ## Historial de cambios
+
+### [0.6.2] - 2026-10-16
+* **Actualización de documentación**:
+  * Corregido el árbol de `Estructura del proyecto`: añadidos `fotocurriculum.jpeg`, `freeduck-translator-preview.png`, `logo-la-magia-de-carol.png` y la carpeta `curriculum/`.
 
 ### [0.6.1] - 2026-10-16
 * **Foto profesional en Sobre mí**:
