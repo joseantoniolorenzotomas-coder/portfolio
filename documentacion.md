@@ -250,6 +250,7 @@ Se han implementado buenas prácticas de accesibilidad web (a11y):
 * **Foto tamaño carnet + ampliable**:
   * `.about-photo` con tamaño fijo de 150×190px (antes `width: 100%`, que en escritorio se mostraba gigante).
   * Clic en la foto abre el modal existente para verla en grande (cierre con ×, clic fuera o `Escape`); también accesible por teclado (`Enter`/`Espacio`).
+* **Anti-caché**: `css/styles.css` y `js/script.js` con parámetro `?v=0.6.3` en `index.html` y `proyectosFull.html` para forzar recarga tras cada despliegue.
 
 ### [0.6.2] - 2026-10-16
 * **Actualización de documentación**:
