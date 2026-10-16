@@ -86,7 +86,7 @@ Al tratarse de una solución estática con JavaScript vanilla, no requiere pasos
 
 1. **Navegación (`.navbar`)**: Barra superior fija con el logotipo de la marca (`JA LT`), enlaces de salto suave (`#inicio`, `#sobre-mi`, `#tecnologias`, `#proyectos`, `#formacion`, `#contacto`) y acceso a `proyectosFull.html`. En pantallas pequeñas se convierte en menú desplegable tipo hamburguesa.
 2. **Inicio / Hero (`#inicio`)**: Presentación personal con título de impacto, subtítulo profesional de desarrollador Full Stack Junior, botones de llamada a la acción (CTA) y bloque decorativo de código con el isotipo de la marca.
-3. **Sobre mí (`#sobre-mi`)**: Biografía personal, foto profesional (`assets/img/fotocurriculum.jpeg`), valores profesionales, intereses (ciencia, anime, artes marciales), accesos directos y estadísticas destacadas (proyectos y clientes).
+3. **Sobre mí (`#sobre-mi`)**: Biografía personal, foto profesional tamaño carnet (`assets/img/fotocurriculum.jpeg`, 150×190px, ampliable al pulsar mediante el modal), valores profesionales, intereses (ciencia, anime, artes marciales), accesos directos y estadísticas destacadas (proyectos y clientes).
 4. **Tecnologías (`#tecnologias`)**: Cuadrícula de competencias clasificadas en tres bloques: *Frontend* (HTML5, CSS3, JavaScript), *Backend* (Python, Flask, FastAPI) y *Herramientas* (Git/GitHub, VS Code, Responsive Design) con barras de nivel.
 5. **Proyectos (`#proyectos`)**: Galería de trabajos con botones de filtrado interactivo (*Todos*, *Frontend*, *Full Stack*, *Python*), tarjetas con etiquetas tecnológicas y enlaces a demostraciones y repositorios.
 6. **Formación y Certificados (`#formacion`)**: Línea de tiempo cronológica formativa (Coursera IBM, Coding Academy, DataCamp) y cuadrícula interactiva con los 10 certificados emitidos. Al pulsar sobre cualquier certificado se abre un modal ampliado para su lectura nítida.
@@ -245,6 +245,11 @@ Se han implementado buenas prácticas de accesibilidad web (a11y):
 ---
 
 ## Historial de cambios
+
+### [0.6.3] - 2026-10-16
+* **Foto tamaño carnet + ampliable**:
+  * `.about-photo` con tamaño fijo de 150×190px (antes `width: 100%`, que en escritorio se mostraba gigante).
+  * Clic en la foto abre el modal existente para verla en grande (cierre con ×, clic fuera o `Escape`); también accesible por teclado (`Enter`/`Espacio`).
 
 ### [0.6.2] - 2026-10-16
 * **Actualización de documentación**:

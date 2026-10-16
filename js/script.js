@@ -4,7 +4,7 @@ const navMenu = document.querySelector('.nav-menu');
 const navLinks = document.querySelectorAll('.nav-link');
 const filterBtns = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card');
-const certificateImages = document.querySelectorAll('.certificate-image');
+const certificateImages = document.querySelectorAll('.certificate-image, .about-photo');
 const certificateModal = document.getElementById('certificateModal');
 const modalImage = document.getElementById('modalImage');
 const modalCaption = document.getElementById('modalCaption');
@@ -84,6 +84,12 @@ if (certificateImages.length > 0 && certificateModal && modalImage) {
     certificateImages.forEach(image => {
         image.style.cursor = 'pointer';
         image.addEventListener('click', () => openCertModal(image));
+        image.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openCertModal(image);
+            }
+        });
     });
 
     if (modalCloseBtn) {

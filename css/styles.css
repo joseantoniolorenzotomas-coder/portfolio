@@ -353,13 +353,19 @@ body {
 }
 
 .about-photo {
-    width: 100%;
-    max-width: 280px;
+    width: 150px;
+    height: 190px;
     border-radius: 12px;
     object-fit: cover;
     margin-bottom: 1.5rem;
     border: 2px solid var(--primary-color);
     box-shadow: var(--shadow-lg);
+    cursor: zoom-in;
+    transition: var(--transition);
+}
+
+.about-photo:hover {
+    transform: scale(1.04);
 }
 
 .about-stats {
