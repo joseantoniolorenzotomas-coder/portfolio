@@ -160,6 +160,14 @@ Al tratarse de una solución estática con JavaScript vanilla, no requiere pasos
 * **Funcionalidades**: Detección de ubicación geográfica, predicción de 5 días y temas dinámicos según el clima.
 * **Enlaces**: Demos y código enlazables.
 
+### 9. CodeCraftHub
+* **Descripción**: Plataforma para crear, editar y publicar contenido web con editor en tiempo real y vista previa inmediata. Ideal para desarrolladores y creadores de contenido técnico.
+* **Tecnologías**: HTML5, CSS3, JavaScript vanilla, editor basado en DOM, GitHub Pages.
+* **Funcionalidades**: Editor en tiempo real con actualización instantánea de la vista previa, escritura de documentación técnica y artículos, plataforma ligera de edición y publicación web, desplegada en GitHub Pages.
+* **Enlaces**:
+  * **Demo en vivo**: [https://joseantoniolorenzotomas-coder.github.io/CodeCraftHub/](https://joseantoniolorenzotomas-coder.github.io/CodeCraftHub/)
+  * **Repositorio GitHub**: [https://github.com/joseantoniolorenzotomas-coder/CodeCraftHub](https://github.com/joseantoniolorenzotomas-coder/CodeCraftHub)
+
 ---
 
 ## Personalización
@@ -245,6 +253,13 @@ Se han implementado buenas prácticas de accesibilidad web (a11y):
 ---
 
 ## Historial de cambios
+
+### [0.6.4] - 2026-10-30
+* **Incorporación de CodeCraftHub**:
+  * Añadida tarjeta en `index.html` con imagen real (`assets/img/codecrafthub.png`), demo y repositorio, categorizada como Frontend.
+  * Añadida ficha detallada en `proyectosFull.html` (visión general, funcionalidades, stack y estado).
+  * Actualizado contador de "Proyectos Completados" de 3 a 4.
+  * Documentado en `documentacion.md` como proyecto nº9 con tecnologías, funcionalidades y enlaces.
 
 ### [0.6.3] - 2026-10-16
 * **Foto tamaño carnet + ampliable**:
