@@ -168,6 +168,14 @@ Al tratarse de una solución estática con JavaScript vanilla, no requiere pasos
   * **Demo en vivo**: [https://joseantoniolorenzotomas-coder.github.io/CodeCraftHub/](https://joseantoniolorenzotomas-coder.github.io/CodeCraftHub/)
   * **Repositorio GitHub**: [https://github.com/joseantoniolorenzotomas-coder/CodeCraftHub](https://github.com/joseantoniolorenzotomas-coder/CodeCraftHub)
 
+### 10. MetrallaPunk-Radio
+* **Descripción**: Radio web online autogestionada, gratuita y sin cuentas. Carga el catálogo propio desde el servidor (<code>catalogo.json</code> + <code>/musica/</code>), reproduce en bucle aleatorio sin parar, con pausa/siguiente/anterior, control de volumen y lista con créditos y atribuciones. Incluye modo local para archivos propios como respaldo. Estética DIY punk con SVG/CSS. Requiere servir por HTTP para cargar el catálogo.
+* **Tecnologías**: HTML5, CSS3, JavaScript vanilla, Web Audio API, GitHub Pages.
+* **Funcionalidades**: Reproducción continua en bucle aleatorio, catálogo propio cargado desde servidor, controles de pausa/siguiente/anterior y volumen, créditos y atribuciones de temas, modo local para archivos propios, estética DIY punk con SVG y CSS puro, sin registro ni cuentas.
+* **Enlaces**:
+  * **Demo en vivo**: [https://joseantoniolorenzotomas-coder.github.io/metrallapunk-radio/](https://joseantoniolorenzotomas-coder.github.io/metrallapunk-radio/)
+  * **Repositorio GitHub**: [https://github.com/joseantoniolorenzotomas-coder/metrallapunk-radio](https://github.com/joseantoniolorenzotomas-coder/metrallapunk-radio)
+
 ---
 
 ## Personalización
@@ -253,6 +261,11 @@ Se han implementado buenas prácticas de accesibilidad web (a11y):
 ---
 
 ## Historial de cambios
+
+### [0.6.5] - 2026-10-30
+* **Incorporación de MetrallaPunk-Radio**:
+  * Añadida ficha detallada en `proyectosFull.html` con imagen real (`assets/img/metrallapunk-radio.png`), demo y repositorio, categorizada como Frontend.
+  * Documentado en `documentacion.md` como proyecto nº10 con tecnologías, funcionalidades y enlaces.
 
 ### [0.6.4] - 2026-10-30
 * **Incorporación de CodeCraftHub**:
